@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+    color:black;
+}
+body {
+    font-family:Roboto;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    background:black;
+    
+}
+
+.logo{
+    padding:5px;
+}
+
+.logo i{
+    color:red;
+}
+
+.title{
+    color:white;
+}
+
+header .icons2 i{
+    color:white;  
+}
+.fa-ellipsis-v {
+    margin-right:10px;
+}
+
+
+.player {
+    position:sticky;
+    top:0;
+    text-align:center;
+    background:black;
+}
+
+.player video{
+    height:451px;
+    width:100%;
+    
+}
+.tag {
+    display:flex;
+}
+.tag li{
+    color:blue;
+    margin-left:13px;
+}
+
+.title2 {
+    display:flex;
+    margin-left:13px;
+    margin-top:5px;
+}
+
+.day {
+    margin-top:5px;
+    margin-left:13px;
+    font-size:12px;
+    color:grey;
+}
+.actions{
+    margin-top:15px;
+    display:flex;
+    justify-content: space-around;
+    border-bottom:1px solid rgb(199, 199, 199);
+    
+}
+
+.actions button{
+    
+    border-style:none;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.actions button i{
+    color:grey;
+    margin:auto;
+    margin-bottom:12px;  
+}
+
+.channel {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid rgb(199, 199, 199);
+}
+.metadata {
+    display:flex;
+}
+
+.subscribe {
+    color:red;
+}
+
+.metadata img{
+    border-radius:50px;
+    max-width:20%;
+    margin-left:10px;
+   
+}
+
+
+
+.info {
+    display:flex;
+    flex-direction:column;
+    
+    margin-left:7px;
+}
+
+.subscribe {
+    margin-right:20px;
+    font-size:12px;
+}
+
+
+.section {
+    
+    padding:10px;
+}
+
+
+
+
